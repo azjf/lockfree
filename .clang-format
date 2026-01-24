@@ -1,0 +1,29 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: Google
+
+IndentWidth: 4
+AccessModifierOffset: -4
+IndentCaseLabels: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterStruct: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+
+MaxEmptyLinesToKeep: 2
+KeepEmptyLinesAtTheStartOfBlocks: true
+
+SpaceAfterCStyleCast: true
+
+IncludeBlocks: Preserve
+
+AllowShortBlocksOnASingleLine: Always
+AllowShortLoopsOnASingleLine: true
+
+CompactNamespaces: true
+NamespaceIndentation: None
